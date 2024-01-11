@@ -36,13 +36,22 @@
       padding: 5px;
     }
 
-    .container {
+    .container-home {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 90vh; /* Adjust as needed */
     }
+
+    .container-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      background: linear-gradient(90deg, #32742c, #04051e);
+     }
+
 
     .headline {
       font-size: 36pt;
@@ -52,6 +61,18 @@
 
     .subtext {
       font-size: 16pt;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .news-header {
+      font-size: 22pt;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .news-context {
+      font-size: 12pt;
       margin-bottom: 20px;
       color: white;
     }
@@ -105,3 +126,23 @@
       right: 10px;
       cursor: pointer;
     }
+
+    .headsup {
+      margin: 10px;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    .info {
+      color: brown;
+      background: cornsilk;
+      border: 1px solid burlywood;
+    }
+
+    .ok {
+      color: darkgreen;
+      background: greenyellow;
+      border: 1px solid darkgreen;
+    }
+
+
