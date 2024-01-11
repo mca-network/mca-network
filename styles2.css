@@ -1,0 +1,121 @@
+  body {
+        margin: 0;
+        padding: 0;
+        font-family: Roboto, sans-serif;
+        background: linear-gradient(90deg, #32742c, #04051e);
+    }
+
+    .navigation {
+      background-color: #333; 
+      display: flex;
+      justify-content: space-between;
+      align-items: right;
+      padding: 10px;
+    }
+
+    .logo {
+      color: white;
+      font-size: 20px;
+      margin-left: 10px;
+    }
+
+    .menu-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .menu-item {
+      margin-right: 10px;
+    }
+
+    .menu-link {
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    .container-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh; /* Adjust as needed */
+    }
+
+    .container-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+      background-color: #333; 
+     }
+
+
+    .headline {
+      font-size: 36pt;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .subtext {
+      font-size: 16pt;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .news-header {
+      font-size: 22pt;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .news-context {
+      font-size: 12pt;
+      margin-bottom: 20px;
+      color: white;
+      background-color: #333; 
+    }
+
+    .bottom-text {
+      margin-top: auto;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    a {
+      color: gray; /* or any other desired color */
+    }
+
+    a:visited {
+      color: darkgray; /* or any other desired color */
+    }
+
+    .menu-link.nav-link {
+      color: white; /* Reset the color for navigational links */
+    }
+
+    .menu-link.nav-link:visited {
+      color: white; /* Reset the color for visited navigational links */
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      color:white
+    }
+    
+    th, td {
+      border: 1px solid gray;
+      padding: 8px;
+      text-align: left;
+
+    }
+    
+    th {
+      background-color: #333;
+      color: white;
+
+    }
