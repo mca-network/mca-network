@@ -6,13 +6,15 @@
   <title>MCA-Network | News</title>
   <link rel="stylesheet" href="styles2.css">
 </head>
-
+  
 <body class="css-selector">
   <div class="navigation">
     <div class="logo">MCA-Network</div>
     <ul class="menu-list">
       <li class="menu-item"><a class="menu-link nav-link" href="index.html">Home</a></li>
-      <li class="menu-item"><a class="menu-link nav-link" href="news.html">News</a></li>      
+      <li class="menu-item"><a class="menu-link nav-link" href="news.html">News</a></li>
+      <li class="menu-item"><a class="menu-link nav-link open-modal" href="#">About</a></li>
+      <li class="menu-item"><a class="menu-link nav-link" href="https://twitter.com/mca_net" target="_blank">@mca_net</a></li>      
     </ul>
   </div>
 
@@ -132,5 +134,33 @@
        </tbody>
     </div>
    </table>
+    
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <p align="center">Our platform emerges in response to critical issues plaguing the cannabis industry in Massachusetts, revealed through leaked information, undisclosed practices, and consumer-submitted data. An in-state testing lab openly defied compliance with a new potency testing bulletin, citing a lack of enforcement by the Cannabis Control Commission (CCC). This revelation sheds light on potential abuse within the testing process, including manipulated sample submissions. Recent consumer retests expose manipulation of THC content and contamination levels, showcasing systemic issues in testing practices. Additionally, a leaked list of debts owed by numerous cannabis companies underscores financial instability within the industry.
+        <br><br>
+      Join us as we unveil the truth, demand accountability, and strive for positive change in Massachusetts' cannabis landscape.
+        <br><br>
+      General inquiry or to submit information: <a href="mailto:dpadmove@proton.me">dpadmove@proton.me</a>
+        <br><br>
+      MCA-Network values and protects anyone who comes forward with information that's adjacent to the cause. 
+    </p>
+    </div>
+  </div>
+
+  <script>
+    // Open modal function
+    document.querySelector('.open-modal').addEventListener('click', openModal);
+
+    function openModal() {
+      document.getElementById('myModal').style.display = 'flex';
+    }
+
+    // Close modal function
+    function closeModal() {
+      document.getElementById('myModal').style.display = 'none';
+    }
+  </script>
 </body>
 </html>
